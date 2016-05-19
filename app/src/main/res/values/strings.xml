@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Thread_Handler_Async</string>
+    <string-array name="Images">
+        <item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+        <item>Image 4</item>
+    </string-array>
+    <string-array name="Urls">
+        <item>https://assetscdn.paytm.com/images/catalog/product/L/LA/LAPDELL-INSPIRODY-R46582CC403C4D/3.jpg</item>
+        <item>https://assetscdn.paytm.com/images/catalog/product/L/LA/LAPACER-ASPIRE-FUSI3924337DBFDF4/1.jpg</item>
+        <item>https://assetscdn.paytm.com/images/catalog/product/L/LA/LAPACER-ASPIRE-JHST492959EB53B0F/2.jpg</item>
+        <item>https://assetscdn.paytm.com/images/catalog/product/L/LA/LAPASUS-X552WA-ALTE263506EFAE399/2.jpg</item>
+    </string-array>
+</resources>
