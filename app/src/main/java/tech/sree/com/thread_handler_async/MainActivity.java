@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     Button load,other;
     Bitmap mBitmap ;
     public static ProgressBar mprogressBar;
-    public static final Handler handler =  new Handler();
+    public static final Handler myHandler =  new Handler();
 
     public static final int SET_PROGRESS_VISIBLILITY = 1 ;
     public static final int SET_IMAGE = 2 ;
@@ -43,9 +43,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void loadImage(View V)  {
         // loadIcon(); // simple thread it will crash due to UI toolkit is accessed in non UI thread
-        //new loadIcon_Async(this).execute(R.drawable.screen2); //Async Task
-        //  new Thread(new Handler_loadIcon_post(this,R.drawable.screen2)).start();
+        // new loadIcon_Async(this).execute(R.drawable.screen2); //Async Task
+         // new Thread(new Handler_loadIcon_post(this,R.drawable.screen2)).start();
 //Handler with messages
+
         new Thread(new Handler_loadIcon_Message(this,R.drawable.screen2,handlerMsg)).start();
     }
     public void loadIcon(){

@@ -14,7 +14,7 @@ import android.widget.ProgressBar;
  */
 public class Handler_loadIcon_post implements Runnable {
     Context context;
-    Handler handler =  MainActivity.handler;
+    Handler handler =  MainActivity.myHandler;
     ProgressBar progressBar = MainActivity.mprogressBar;
     ImageView imageView = MainActivity.imgView;
     int imageId;
